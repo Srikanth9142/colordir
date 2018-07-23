@@ -1,0 +1,27 @@
+<html>
+<head>
+<style>
+   #jay
+      {margin-top:100px;
+      
+       padding:20px;
+       border:1px solid black;
+       }
+</style>
+<script language="javascript">
+function changeclr(obj)
+{
+	document.getElementById("jay").style.backgroundColor=obj.value;
+}
+</script>
+</head>
+<body>
+<form>
+<div id="jay"><div>
+<input type="radio"  value="red" onclick="changeclr(this)"> Red<br>
+<input type="radio"  value="green" onclick="changeclr(this)"> green<br>
+<input type="radio"  value="blue" onclick="changeclr(this)"> blue<br>
+<form>
+</body>
+</html>
+ 
